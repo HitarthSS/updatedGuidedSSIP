@@ -1,0 +1,31 @@
+{
+  "excluded_from_self_hash": [
+    ".gitignore",
+    "provenance/export.json",
+    "provenance/validation.json"
+  ],
+  "files": {
+    "EVALUATION.md": "9c04cd6061a926a3956df52f0d4ddef66d71c6457f01302c9d35432f65ff815c",
+    "LICENSE": "bdad4c6087a3fea4f50fe2eb8bca565d5b25321eca79415ba015a23c99b7a6a2",
+    "NOTICE.md": "8fced7342c82d99736f6f2c4118715641630dfc7660d33974ce5365688fe38d5",
+    "PUBLICATION.json": "ba63ce0c49c8c211a18d83b7dc679b0bfb3d3c20ded05c24a0e66cb505ecef56",
+    "README.md": "f95ac83c29e565ffbc6b1530e77e674be626700a263711d3ebe205abb67c8e38",
+    "accuracy_harness.py": "39b25e82a7d9f6ba045a65340d2e2f4ae973e08e2448b91b0e1fcb7c56b83ed5",
+    "configs/method.json": "2b4bb1494010c3c6bbfcba4eb4d6364fb48aaa893be6ec2177e4334bf9e33811",
+    "docs/INTEGRATION.md": "d8b21bc75a939419328318462e080214a6802a01980abd8163091f6c215551df",
+    "licenses/UPSTREAM-LICENSE": "8243ba44b548f5abc50820aee993e9754a152700b734c147d70db1e19e23c331",
+    "provenance/evaluated-models.json": "18d3c3287ea7b7aef095fe794ebfc9c4d42650b891aed73c0898b60c8116a3ea",
+    "provenance/original-source-hashes.json": "afaf8c43577c12f62e21d8473b4aa3f957b740bdf6c4a3d34d40fd938683f975",
+    "provenance/upstream.json": "10cc48aa958dfe06e9f3dfb192594af4c63177788a5c270059ff6d9af9e38c55",
+    "reference/README.md": "73710e43ecb9584b021e55f76d9c08dd8acb72b19fad54cc439149cd05be9403",
+    "reference/accuracy_campaign.py": "316ab3f8934f2c162c44c439ab80c30b4c4c9058401b495583e7a6dac2ce6997",
+    "reference/accuracy_harness.py": "39b25e82a7d9f6ba045a65340d2e2f4ae973e08e2448b91b0e1fcb7c56b83ed5",
+    "reference/my_harness.py": "383cc8cccedda1f191e48c1603cec9f5267dc47e3ec9334cf3f1f94a02ba17e8",
+    "reference/paired_campaign.py": "86cf9fd343fc7540fd719b16205425a444a0137aaa5505d2ffdd3fe7909f396c",
+    "reference/report_accuracy.py": "06f3a3cf6158c0e6fab956209e3ab7220b1785457c0f67be28c1d4a29e947798",
+    "results/interpretation.json": "554b8b5cb3d8e499d6e7ac4abc7ec81feee839c439519923190818a8d4b44156",
+    "speed_harness.py": "383cc8cccedda1f191e48c1603cec9f5267dc47e3ec9334cf3f1f94a02ba17e8",
+    "tools/verify_export.py": "c0f2a4ad4b66c20d59111f7a4005ac44d8ba4b795806cd8d8125fdff185bca2e"
+  },
+  "note": "Only exported files are covered. Existing upstream files are preserved. .gitignore is merged on the two existing repositories."
+}

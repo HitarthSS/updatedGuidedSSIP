@@ -1,0 +1,7 @@
+{
+  "documented_model_configuration": [
+    "Released pusht_state_1000ep_si.ckpt, SHA256 e3b722c9a87425944a45dae7bd211ef4721b2bb92e50d93244ae795642257127.",
+    "Training-free STEG on a frozen low-dimensional pushing policy; this is not a VLA or an LLM planner."
+  ],
+  "weights_included": false
+}

@@ -1,0 +1,35 @@
+{
+  "note": "Source collection hashes; exported locations may differ. Core algorithms are copied without behavior changes.",
+  "source_files": [
+    {
+      "bytes": 4971,
+      "file": "accuracy_harness.py",
+      "sha256": "39b25e82a7d9f6ba045a65340d2e2f4ae973e08e2448b91b0e1fcb7c56b83ed5"
+    },
+    {
+      "bytes": 11208,
+      "file": "accuracy_campaign.py",
+      "sha256": "316ab3f8934f2c162c44c439ab80c30b4c4c9058401b495583e7a6dac2ce6997"
+    },
+    {
+      "bytes": 11339,
+      "file": "paired_campaign.py",
+      "sha256": "86cf9fd343fc7540fd719b16205425a444a0137aaa5505d2ffdd3fe7909f396c"
+    },
+    {
+      "bytes": 3771,
+      "file": "report_accuracy.py",
+      "sha256": "06f3a3cf6158c0e6fab956209e3ab7220b1785457c0f67be28c1d4a29e947798"
+    },
+    {
+      "bytes": 1881,
+      "file": "my_harness.py",
+      "sha256": "383cc8cccedda1f191e48c1603cec9f5267dc47e3ec9334cf3f1f94a02ba17e8"
+    },
+    {
+      "bytes": 1077,
+      "file": "licenses/UPSTREAM-LICENSE",
+      "sha256": "8243ba44b548f5abc50820aee993e9754a152700b734c147d70db1e19e23c331"
+    }
+  ]
+}

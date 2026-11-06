@@ -1,0 +1,10 @@
+{
+  "description": "My harness for Guided SSIP / STEG \u2014 goal settling; frozen-policy source, integration notes, horizons and qualified pilot results.",
+  "existing_repository": false,
+  "main_entrypoint": "accuracy_harness.py",
+  "new_visibility": "private",
+  "owner": "HitarthSS",
+  "paper": "https://arxiv.org/abs/2605.10051",
+  "repository": "updatedGuidedSSIP",
+  "requires_paid_api": false
+}
