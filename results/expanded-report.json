@@ -1,0 +1,216 @@
+{
+  "completed_pairs": 300,
+  "planned_pairs": 300,
+  "groups": {
+    "release_range/intercept": {
+      "pairs": 50,
+      "arms": {
+        "authors": {
+          "episodes": 50,
+          "successes": 27,
+          "release_successes": 36,
+          "collisions": 3,
+          "mean_final_reward": 0.7497338759881241,
+          "episode_wall_seconds": 286.71887332666665,
+          "simulator_seconds": 7.122402207925916,
+          "reference_wall_seconds": 116.65591187682003,
+          "model_rows": 702062,
+          "horizon_violations": 0
+        },
+        "my_harness": {
+          "episodes": 50,
+          "successes": 33,
+          "release_successes": 38,
+          "collisions": 1,
+          "mean_final_reward": 0.7686473288418273,
+          "episode_wall_seconds": 268.91314588300884,
+          "simulator_seconds": 7.28241915628314,
+          "reference_wall_seconds": 116.89267146773636,
+          "model_rows": 486180,
+          "horizon_violations": 0
+        }
+      },
+      "my_only_wins": 7,
+      "authors_only_wins": 1,
+      "success_rate_delta": 0.12,
+      "mcnemar_exact_p": 0.0703125,
+      "planned_pairs": 50,
+      "paper_steg_percent": 68.0
+    },
+    "release_range/oscillate": {
+      "pairs": 50,
+      "arms": {
+        "authors": {
+          "episodes": 50,
+          "successes": 19,
+          "release_successes": 26,
+          "collisions": 7,
+          "mean_final_reward": 0.7403476104505994,
+          "episode_wall_seconds": 566.0614456292242,
+          "simulator_seconds": 7.86368056666106,
+          "reference_wall_seconds": 117.20900731813163,
+          "model_rows": 2209628,
+          "horizon_violations": 0
+        },
+        "my_harness": {
+          "episodes": 50,
+          "successes": 25,
+          "release_successes": 25,
+          "collisions": 8,
+          "mean_final_reward": 0.767463421990088,
+          "episode_wall_seconds": 483.84020049963146,
+          "simulator_seconds": 8.143313095904887,
+          "reference_wall_seconds": 116.96837790310383,
+          "model_rows": 1433170,
+          "horizon_violations": 0
+        }
+      },
+      "my_only_wins": 7,
+      "authors_only_wins": 1,
+      "success_rate_delta": 0.12,
+      "mcnemar_exact_p": 0.0703125,
+      "planned_pairs": 50,
+      "paper_steg_percent": 56.0
+    },
+    "release_range/chase": {
+      "pairs": 50,
+      "arms": {
+        "authors": {
+          "episodes": 50,
+          "successes": 29,
+          "release_successes": 38,
+          "collisions": 5,
+          "mean_final_reward": 0.7781673465320506,
+          "episode_wall_seconds": 288.5973832719028,
+          "simulator_seconds": 6.971107840538025,
+          "reference_wall_seconds": 0.0,
+          "model_rows": 733754,
+          "horizon_violations": 0
+        },
+        "my_harness": {
+          "episodes": 50,
+          "successes": 27,
+          "release_successes": 33,
+          "collisions": 10,
+          "mean_final_reward": 0.794639880635526,
+          "episode_wall_seconds": 292.60912188887596,
+          "simulator_seconds": 7.412455942481756,
+          "reference_wall_seconds": 0.0,
+          "model_rows": 592684,
+          "horizon_violations": 0
+        }
+      },
+      "my_only_wins": 3,
+      "authors_only_wins": 5,
+      "success_rate_delta": -0.04,
+      "mcnemar_exact_p": 0.7265625,
+      "planned_pairs": 50,
+      "paper_steg_percent": 36.0
+    },
+    "fresh/intercept": {
+      "pairs": 50,
+      "arms": {
+        "authors": {
+          "episodes": 50,
+          "successes": 29,
+          "release_successes": 34,
+          "collisions": 6,
+          "mean_final_reward": 0.7383326539934894,
+          "episode_wall_seconds": 359.18384309485555,
+          "simulator_seconds": 7.801589691080153,
+          "reference_wall_seconds": 118.97532476857305,
+          "model_rows": 1034876,
+          "horizon_violations": 0
+        },
+        "my_harness": {
+          "episodes": 50,
+          "successes": 29,
+          "release_successes": 34,
+          "collisions": 6,
+          "mean_final_reward": 0.7533724095657915,
+          "episode_wall_seconds": 325.42350838147104,
+          "simulator_seconds": 7.915843306109309,
+          "reference_wall_seconds": 119.16638868115842,
+          "model_rows": 699246,
+          "horizon_violations": 0
+        }
+      },
+      "my_only_wins": 1,
+      "authors_only_wins": 1,
+      "success_rate_delta": 0.0,
+      "mcnemar_exact_p": 1.0,
+      "planned_pairs": 50,
+      "paper_steg_percent": null
+    },
+    "fresh/oscillate": {
+      "pairs": 50,
+      "arms": {
+        "authors": {
+          "episodes": 50,
+          "successes": 24,
+          "release_successes": 26,
+          "collisions": 7,
+          "mean_final_reward": 0.7004047841966369,
+          "episode_wall_seconds": 526.1333670448512,
+          "simulator_seconds": 7.635385813191533,
+          "reference_wall_seconds": 119.16584005858749,
+          "model_rows": 2002128,
+          "horizon_violations": 0
+        },
+        "my_harness": {
+          "episodes": 50,
+          "successes": 25,
+          "release_successes": 27,
+          "collisions": 6,
+          "mean_final_reward": 0.7050749663055973,
+          "episode_wall_seconds": 468.165627008304,
+          "simulator_seconds": 7.865576516836882,
+          "reference_wall_seconds": 118.85875727981329,
+          "model_rows": 1388522,
+          "horizon_violations": 0
+        }
+      },
+      "my_only_wins": 2,
+      "authors_only_wins": 1,
+      "success_rate_delta": 0.02,
+      "mcnemar_exact_p": 1.0,
+      "planned_pairs": 50,
+      "paper_steg_percent": null
+    },
+    "fresh/chase": {
+      "pairs": 50,
+      "arms": {
+        "authors": {
+          "episodes": 50,
+          "successes": 33,
+          "release_successes": 41,
+          "collisions": 3,
+          "mean_final_reward": 0.7916366855756454,
+          "episode_wall_seconds": 310.6958457836881,
+          "simulator_seconds": 7.411030855029821,
+          "reference_wall_seconds": 0.0,
+          "model_rows": 813972,
+          "horizon_violations": 0
+        },
+        "my_harness": {
+          "episodes": 50,
+          "successes": 36,
+          "release_successes": 39,
+          "collisions": 5,
+          "mean_final_reward": 0.8379571323879823,
+          "episode_wall_seconds": 290.89116619713604,
+          "simulator_seconds": 7.749157780781388,
+          "reference_wall_seconds": 0.0,
+          "model_rows": 555080,
+          "horizon_violations": 0
+        }
+      },
+      "my_only_wins": 7,
+      "authors_only_wins": 4,
+      "success_rate_delta": 0.06,
+      "mcnemar_exact_p": 0.548828125,
+      "planned_pairs": 50,
+      "paper_steg_percent": null
+    }
+  }
+}

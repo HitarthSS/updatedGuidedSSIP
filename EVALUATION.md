@@ -1,6 +1,6 @@
 # Evaluation: My harness for Guided SSIP / STEG — goal settling
 
-Oscillate only. Seeds 500–549 are repeated released evaluation; seeds 550–599 form a separate predeclared robustness extension. Do not pool the cohorts.
+This page describes the original Oscillate-only comparison. See the [expanded comparison](experiments/README.md) for Intercept, Oscillate, and Chase. Seeds 500–549 are repeated released evaluation; seeds 550–599 form a separate predeclared robustness extension. Do not pool the cohorts.
 
 ## Budget
 

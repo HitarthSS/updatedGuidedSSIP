@@ -2,23 +2,19 @@
 
 Experimental, frozen-policy harness code for the [paper](https://arxiv.org/abs/2605.10051). The evaluated behavior is in [`accuracy_harness.py`](accuracy_harness.py). Original authorship and source are credited in [NOTICE.md](NOTICE.md).
 
-## Results
+## Expanded results
 
-| Reference | Result |
+Matched evaluation of authors’ STEG and v4 `settle_only` on three dynamic Push-T modes. Each row in each cohort has 50 matched pairs. The score requires final reward above 0.85 and no collision.
 
-| --- | --- |
+| Mode | Paper STEG | Authors’ harness, release-range | My harness, release-range | Authors’ harness, fresh | My harness, fresh |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Intercept | 68% | 27/50 | 33/50 | 29/50 | 29/50 |
+| Oscillate | 56% | 19/50 | 25/50 | 24/50 | 25/50 |
+| Chase | 36% | 29/50 | 27/50 | 33/50 | 36/50 |
 
-| Paper / official release | Oscillate STEG: 56.0% |
+On fresh seeds, final-reward success went from 86/150 to 90/150 and peak-reward success went from 101/150 to 100/150. The candidate processed about 31% fewer model input rows and used about 9% less measured rollout wall time in both cohorts. All 600 rollouts respected the 250-action horizon.
 
-| Our run of the authors' harness | Released seeds: 19/50 (38.0%); fresh extension: 15/50 (30.0%) |
-
-| **My harness** | **Released seeds: 25/50 (50.0%); fresh extension: 19/50 (38.0%)** |
-
-
-Oscillate only. Seeds 500–549 are repeated released evaluation; seeds 550–599 form a separate predeclared robustness extension. Do not pool the cohorts.
-
-
-These are reduced or explicitly qualified experiments. They do not establish full-paper reproduction or a confirmed benchmark win. See [evaluation details](EVALUATION.md) and the compact records in [results/](results/).
+The released entry point specifies Oscillate at seeds 500–549. Intercept and Chase use the same seed range with their released mode switches. The paper’s exact seed manifest is unverified. See [Table II](https://arxiv.org/html/2605.10051#S5.C), [expanded evaluation instructions](experiments/README.md), and the [measured results](results/expanded-report.json). The earlier Oscillate-only extension is documented separately in [EVALUATION.md](EVALUATION.md).
 
 ## What my harness changes
 
